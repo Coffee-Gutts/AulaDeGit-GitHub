@@ -3,18 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>git</title>
+    <title>meu repositorio</title>
+    <style>
+        div{
+            display: inline-table;
+            align-items: center;
+            
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        
+        .ComecoDeProjeto{
+            color: blueviolet;
+        }
+        .AtualizarProjeto{
+            color: red;
+        }
+    </style>
 </head>
 <body>
-    <h1>estudando git e gitHub</h1>
-    <p>estou fazendo um curso de Java e essa é uma seção bonus do curso</p>
-    <h2>alguns codigos do git:</h2>
-    <ol>git init (colocar uma pasta git no seu projeto)</ol>
-    <ol>git add . (para pegar os arquivos e mandar no gitHub)</ol>
-    <ol>git commit -m "Mensagem explicativa"</ol>
-    <ol>git branch -M main    </ol>
-    <ol>git remote add origin git@github.com:seuusuario/seurepositorio.git</ol>
-    <ol>git push -u origin main (para enviar seu commits no repositorio que voce colocou)</ol>
-    <ol>git status(para ver as mçodificações etc...)</ol>
+    <header>
+        <h1 style="color: brown;">Git e gitHub</h1>
+        <p style=" color: crimson;">Estou fazendo um curso de Java e essa é uma seção bonus do curso</p>
+    </header>
+
+    <div class="ComecoDeProjeto">
+        <h2>Codigos para inicializar o seu repositorio</h2>
+        <ol>git init (colocar uma pasta git no seu projeto)</ol>
+        <ol>git add . (para pegar os arquivos e mandar no GitHub)</ol>
+        <ol>git commit -m "Mensagem explicativa"</ol>
+        <ol>git branch -M main(porque alfumas versoes nao usam esse) main</ol>
+        <ol>git remote add origin git@github.com:seuusuario/seurepositorio.git</ol>
+        <ol>git push -u origin main (para enviar seu commits no repositorio que voce colocou)</ol>
+        <ol>git status(para ver as mçodificações etc...)</ol>
+    </div>
+    <div class="AtualizarProjeto">
+        <h2>Codigos para atualizar o repositorio</h2>
+        <ol>git add . (para pegar os arquivos/atualizacoes)</ol>
+        <ol>git commit -m "Mensagem explicativa" para explicar as atualizacoes do seu projeto</ol>
+        <ol>git push -u origin main (para enviar seu commits no repositorio que voce colocou)</ol>
+    </div>
+
+    <footer>
+        <p>por enquanto é isso :-)</p>
+    </footer>
 </body>
 </html>
